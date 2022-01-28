@@ -10,17 +10,20 @@ const useStyle = makeStyles(() =>
     background: {
       backgroundImage: `url(${back})`,
       backgroundSize: "cover",
-      height: "100vh"
+      height: "100vh",
+      backgroundPosition: "center"
     },
     paper: {
       position: "relative",
       marginLeft: "auto",
       marginRight: "auto",
       top: "33%",
-      width: "30%"
+      width: "30%",
+      display: "flex",
+      justifyContent: "center"
     },
     base: {
-      width: "85%"
+      width: "100%"
     }
   })
 );
